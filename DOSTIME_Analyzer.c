@@ -120,7 +120,7 @@ void dos2unixtime(int dostime)
 
 int unix2dostime (int year, int month, int day, int hour, int min, int sec)
 {
-  return ((year-1980) << 25
+  return ((year-1997) << 25
 	  | (month) << 21
 	  | day << 16
 	  | hour << 11
